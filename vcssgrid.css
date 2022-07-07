@@ -1,0 +1,79 @@
+
+/*----------------------------------------------------------------*/
+html,body {
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.base {
+    border: 1px solid blue; width: 600px; ; height: 375px;
+    background:linear-gradient( to right, red 0%, 
+    red 23%, black 23%, black 66% );
+    width: 600px; 
+    height:375px;
+}
+
+
+.np {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 17px;
+    color: white;
+    margin-right: 150px;
+
+}
+
+.oggy {
+ width: 75px; height: 75px;
+ margin-right: 250px;
+ grid-column-start: -7;
+}
+
+.part1 {
+    border: 1px solid palevioletred;
+    width: 600px;
+    height: 75px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.part2 {
+    border: 1px solid purple;
+    margin-top: 2px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+
+
+}
+ .years {
+    margin-right: 80px;
+    grid-column-start: 5;
+    
+ }
+ 
+
+ .navi {
+    border: 1px solid orange;
+    height: 95px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-area: 4 / 4 / 3 / 3;
+ }
+
+ .fb {
+    width: 50px;
+ }
+
+ .tw {
+    width: 50px;
+    margin-left: 40px;
+ }
+
+ .ds {
+    width: 50px;
+    margin-left:40px;
+ }
